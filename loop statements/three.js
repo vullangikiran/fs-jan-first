@@ -1,8 +1,11 @@
-let i=2;
-for(i=2;i<=100;i=i+1)
+let i=1;
+for(i=1;i<=19;i=i+1)
 {
-
+    if(i%2 == 0)
+        
     console.log( i)
+    
+
     
 
 }

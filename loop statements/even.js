@@ -1,8 +1,8 @@
 let i=2;
-if(2)
+if(i<=10)
 {
     console.log(true)
 }
 else{
-    console.log(false)
+    console.log(nk)
 }
