@@ -1,11 +1,10 @@
-let i=1;
-for(i=1;i<=19;i=i+1)
+
+
+let i=2;
+if(i<=10)
 {
-    if(i%2 == 0)
-        
-    console.log( i)
-    
-
-    
-
+    console.log(true)
+}
+else{
+    console.log(nk)
 }

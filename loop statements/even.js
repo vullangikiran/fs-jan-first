@@ -1,8 +1,10 @@
-let i=2;
-if(i<=10)
+let i=1;
+for(i=1;i<=20;i=i+1)
 {
-    console.log(true)
-}
-else{
-    console.log(nk)
+    if(i%2 == 0)
+        
+    console.log( i)
+    
+
+    
 }
