@@ -1,7 +1,7 @@
 function add( )
 {
   
-    console.log("GODD MORNING")
+    console.log("GOOD MORNING")
     
 
 }
