@@ -17,3 +17,5 @@ console.log(a)
 
 a.reverse()
 console.log(a)
+
+
