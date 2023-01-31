@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Sample for onfocus event handler</p>
+User Name: <input type="text" id="fname" onfocus="func(this.id)"><br>
+Confirm user name: <input type="text" id="lname" onfocus="func(this.id)">
+<script>
+function func(x) {
+document.getElementById(x).style.background = "blue";
+}
+</script>
+</body>
+</html>
