@@ -1,0 +1,139 @@
+    :root{
+        --box-shadow:0 1px 3px rgba(0, 0, 0, 0.12),
+            0 1px  2px rgba(0, 0, 0, 0.24);
+
+
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.CONTAINER{
+    margin: 300px auto;
+    margin: 0;
+}
+h3{
+
+    border-bottom: 1px solid#BBB;
+    padding-bottom: 10px;
+    margin: 40px 0 10px;
+}
+H4{
+    margin: 0;
+    text-transform: uppercase;
+}
+.INC-EXP-CONTAINER {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.INC-EXP-CONTAINER  > div {
+     
+  flex: 1;
+    text-align: center;
+}
+.INC-EXP-CONTAINER > div:first-of-type{
+     border-right: 1px solid #dedede;
+  }
+  .MONEY{
+    font-size: 2;
+    letter-spacing: 1px;
+    margin: 5px 0;
+  }
+
+  .MONEY-PLUS{
+    color: #2d4dcc;
+  }
+  .MONEY-MINUS{
+    color: #2ecc71;
+  }
+  label{
+    display: inline-block;
+    margin: 10px O;
+  }
+  input[TYPE="TEXT"],input[TYPE="NUMBER"]{
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    font: size 16px;;
+    padding: 10px;
+    display: block;
+width: 100%;
+  }
+
+.BTN{
+    cursor: pointer;
+    background-color: #9c88ff;
+    box-shadow: var(--box-shadow);
+    color: #fff;
+    display: block;
+    border: 0;
+    margin: 10px 0 30px;
+    font: size 16px;
+    padding: 10px;
+   
+width: 100%;
+
+}
+.BTN:focus,.DELETE-BTN:focus{
+    outline: 0;
+
+}
+
+.LIST{
+    list-style-type:none ;
+    padding: 0;
+    margin-bottom: 40px;
+
+}
+ .LIST LI{
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between  ;
+    position: relative;
+    margin: 10px 0;
+ }
+ LIST LI.PLUS{
+    border-right: 5px
+    solid #2ecc71;
+ }
+ LIST LI.MINUS{
+    border-right: 5px solid #2d4dcc;
+ }
+ .DELETE-BTN{
+cursor: pointer;
+background-color: #E74C3E;
+border: 0;
+color: #fff;
+font-size: 20px;
+line-height: 20px;
+padding: 2px 5px;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translate(-100%,-50%);
+opacity: 0;
+transition: opacity 0.3s ease;
+ }
+
+ .LIST li:hover .DELETE-BTN{
+    opacity: 1;
+ }

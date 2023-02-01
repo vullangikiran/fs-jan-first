@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>EXPENSE TRACKER
+        </title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <BODY>
+        <H2>EXPENSE TRACKER</H2>
+        <DIV class="CONTAINER">
+        <h4>YOUR BALANCE</h4>
+        <h1 id="BALANCE">$0.00</h1>
+        <div class="INC-EXP-CONTAINER">
+            <div>
+                <H4>INCOME</H4>
+                <P id="MONEY-PLUS" class="MONEY-PLUS">
+                    +$0.00
+                </P>
+            </div>
+            <div>
+                <H4>EXPENSE</H4>
+                <P id="MONEY-MINUS" class="MONEY-MINUS">
+                    -$0.00
+                </P>
+            </div>  
+        </div>
+        <h3>HISORY</h3>
+        <ul ID="LIST" class="LIST">
+            <LI class="MINUS"> 
+                CASH <span>-$400</span><BUTTON class="DELETE-BTN">X</BUTTON>
+            </LI>
+        </ul>
+        </DIV>
+        <H3>ADD NEW TRANSACTION</H3>
+        <form id="FORM">
+            <div class="FORM-CONTROL">
+                <label for="TEXT">TEXT</label>
+                <input type="TEXT" id="TEXT" placeholder="ENTER TEXT"/>
+            </div>
+            <div class="FORM-CONTROL">
+                <label for="Amount">Amount</label>
+                <input type="number" id="Amount" placeholder="ENTER Amount  "/>
+            </div>
+            <button class="btn">ALL TRANSACTION </button>
+
+        </form>
+
+
+
+
+        <script src="./script.js"></script>
+    </BODY>
+</html>
