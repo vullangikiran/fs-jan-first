@@ -1,6 +1,6 @@
 class Account{
     min_balance =500
-    location= 'marathalli'
+    location= 'marathalli'  
 }
 
 let a1=new Account()

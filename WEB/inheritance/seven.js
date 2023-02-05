@@ -15,3 +15,4 @@ class CA extends Account {
 let c1 = new CA(501, "Rahul Gandhi", 55000, "current");
 console.log(c1)
 
+                            
